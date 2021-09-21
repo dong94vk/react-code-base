@@ -1,0 +1,21 @@
+stages:
+  - stg
+  - prod
+
+deploy_stg:
+  stage: stg
+  script:
+    - bash ./ci/stg.sh
+  only:
+    - develop
+
+deploy_prod:
+  stage: prod
+  script:
+    - bash ./ci/prod.sh
+  only:
+    - master
+
+cache:
+  paths:
+    - node_modules/

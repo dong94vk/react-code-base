@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./tsc",
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "jsx": "react",
+    "allowJs": true,
+    "noLib": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2015", "es2017", "dom"]
+  },
+  "compileOnSave": true,
+  "skipLibCheck": true,
+  "exclude": ["node_modules"]
+}

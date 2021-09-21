@@ -1,0 +1,12 @@
+@import 'overide';
+
+body {
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 400;
+  overscroll-behavior: none;
+}
+.bs-layout {
+  min-height: 100vh;
+  padding: 20px;
+}
